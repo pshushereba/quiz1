@@ -1,0 +1,7 @@
+<h1>Add a Player</h1>
+<%= simple_form_for @player, url: root_path do |f| %>
+	<%= f.input :name %>
+	<%= f.input :team %>
+	<%= f.submit "Add Player" %>
+	<br />
+<% end %>
